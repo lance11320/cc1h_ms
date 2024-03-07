@@ -1,7 +1,21 @@
 # cc1h_ms
 
+Usage (if need):
+Arrange your data first and adjust the path in the scripts;
+Run BatchProcessMinian.py (in your minian environment);
+Use ManuallyExtraction.m for manually add neurons;
+Run FasterLowerMemCostGen.m to extract traces;
+Use CheckNeuron.mlapp (Call appdesigner in MATLAB, and run it in appdesigner)
+
 ## BatchProcessMinian.py
 This is a script version of MiniAn pipeline, which allows us to process multiple recording sessions at one run, with most parameters remaining the same as recommended or default. We found these parameters doing OK with our data.
 We add a little part to process the zarr files. Since we are a little more familiar with MATLAB, we have to convert the data into .mat and use MATLAB to process.
+## ManuallyExtraction.m
+This script allows you to add neuron footprint according to max projection. MiniAn or CNMFe won't do anything for you after all.
 ## GenerateNeuTraceMat.m
-We then use the footprint, which is A.zarr and we convert it into A.mat, to 
+We then use the footprint, which is A.zarr and we convert it into A.mat, to extract raw signal from preprocessed movies.
+(We use FasterLowerMemCostGen.m in practice, since it is compatible with 64GB memory or less)
+
+## CheckNeuron.mlapp
+A MATLAB app for checking the neuron footprint and trace quality. The check results are marked and saved in quality metrics (0 for bad, 1 for good, 2 for uncertain, we use only 1 class at last).
+
