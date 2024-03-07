@@ -19,3 +19,11 @@ We then use the footprint, which is A.zarr and we convert it into A.mat, to extr
 ## CheckNeuron.mlapp
 A MATLAB app for checking the neuron footprint and trace quality. The check results are marked and saved in quality metrics (0 for bad, 1 for good, 2 for uncertain, we use only 1 class at last).
 
+## Other tips
+About MiniAn installation:
+1. Open your Anaconda prompt
+2. conda create -n minian python=3.8 (note that it has to be 3.8)
+3. conda activate minian
+4. conda install mamba -c conda-forge
+5. mamba install -y -c conda-forge minian
+Now you can install it faster. We noticed that it is hard to use conda to install minian due to the slow solving process. Hoping this will make it easier for you to process your data.
