@@ -38,4 +38,4 @@ Use GetDFFdata or FPdata class to read doric V6 data if needed (however, it depe
 viewFPevent.mlapp is a GUI which might be used to view the doric V6 data and convert it into CSV for being compatible with old pipeline. We did not really use this in research but thought it might help.
 
 ## About AnalysisPipeline
-Here we put the our code of building analysis object, with some of the analysis method inside the class. 
+Here we put our code of building analysis object, with some of the analysis method inside the class. 
