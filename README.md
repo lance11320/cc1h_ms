@@ -31,3 +31,4 @@ Now you can install it faster. We noticed that it is hard to use conda to instal
 ## About FP_Process
 This is the code for double-fiber photometry data processing (intend for activation at PVN while recording at mPFC neurons)
 Use GetDFFdata or FPdata class to read doric V6 data if needed (however, it depends on how Doric arrange their data)
+viewFPevent.mlapp is a GUI which might be used to view the doric V6 data and convert it into CSV for being compatible with old pipeline. We did not really use this in research but thought it might help.
