@@ -27,3 +27,7 @@ About MiniAn installation:
 4. conda install mamba -c conda-forge
 5. mamba install -y -c conda-forge minian
 Now you can install it faster. We noticed that it is hard to use conda to install minian due to the slow solving process. Hoping this will make it easier for you to process your data.
+
+## About FP_Process
+This is the code for double-fiber photometry data processing (intend for activation at PVN while recording at mPFC neurons)
+Use GetDFFdata or FPdata class to read doric V6 data if needed (however, it depends on how Doric arrange their data)
