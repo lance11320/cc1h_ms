@@ -39,3 +39,8 @@ viewFPevent.mlapp is a GUI which might be used to view the doric V6 data and con
 
 ## About AnalysisPipeline
 Here we put our code of building analysis object, with some of the analysis method inside the class. 
+
+## About Figure5_Code_YingZhou
+Here we put the code for Figure5, which focus on registered neurons. These Python scripts include implementations of clustering algorithms and classifier construction. 
+
+This part is contributed by YingZhou from Xiaoxuan Jia's lab.
