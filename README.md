@@ -1,10 +1,19 @@
 # cc1h_ms
 
 Usage (if need):
-Arrange your data first and adjust the path in the scripts;
+Arrange your data first and adjust the path in the scripts (The recommended way is: 
+
+animal/  
+└── session/  
+    ├── v4-miniscope/  
+    └── behavior_cam/
+
 Run BatchProcessMinian.py (in your minian environment);
+
 Use ManuallyExtraction.m for manually add neurons;
+
 Run FasterLowerMemCostGen.m to extract traces;
+
 Use CheckNeuron.mlapp (Call appdesigner in MATLAB, and run it in appdesigner)
 
 ## BatchProcessMinian.py
