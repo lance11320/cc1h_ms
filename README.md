@@ -3,10 +3,10 @@
 Usage (if need):
 Arrange your data first and adjust the path in the scripts (The recommended way is: 
 
-animal/  
-└── session/  
-    ├── v4-miniscope/  
-    └── behavior_cam/
+- animal/
+  - session/
+    - v4-miniscope/
+    - behavior_cam/
 
 Run BatchProcessMinian.py (in your minian environment);
 
